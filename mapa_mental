@@ -1,0 +1,9 @@
+jogo/
+│
+├── models/         # Classes e modelos de personagem
+├── utils/          # Funções utilitárias e validações
+├── services/       # Integrações externas (ex: geração de avatar)
+├── database/       # Arquivos JSON ou banco de dados
+├── api/            # Endpoints da aplicação (rotas)
+├── template/       # Templates HTML (se for web)
+├── static/         # Arquivos estáticos (CSS, JS, imagens)

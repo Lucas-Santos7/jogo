@@ -13,18 +13,16 @@ def aparencia(self,cabelo,cor_cabelo,cor_olho,cor_pele,deficiencia,acessorio,for
 def historia(self,passado,familia,amor,presente):
         pass
 
-def skills(self, espada, escudo, lanca, porrete):
-    opcoes_espada = ['Curta', 'Longa', 'Bastarda']
-    opcoes_escudo = ['Madeira', 'Ferro', 'Torre']
-    opcoes_lanca = ['Curta', 'Longa']
-    opcoes_porrete = ['Leve', 'Pesado']
+def skills(self, arma, mira, utilitarios):
+    opcoes_arma = ['Arco', 'Besta', 'Arma de fogo', 'Estilingue']
+    opcoes_mira = ['Óptica', 'Laser', 'Ferro', 'Nenhuma']
+    opcoes_utilitarios = ['Flecha explosiva', 'Flecha venenosa', 'Granada', 'Corda', 'Binóculo']
 
-    if espada not in opcoes_espada:
+    if arma not in opcoes_arma:
         return False
-    if escudo not in opcoes_escudo:
+    if mira not in opcoes_mira:
         return False
-    if lanca not in opcoes_lanca:
-        return False
-    if porrete not in opcoes_porrete:
+    if utilitarios not in opcoes_utilitarios:
         return False
     return True
+    
